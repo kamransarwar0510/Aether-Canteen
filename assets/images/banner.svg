@@ -1,0 +1,13 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="400" fill="url(#paint0_linear)"/>
+  <circle cx="1100" cy="100" r="150" fill="white" fill-opacity="0.05"/>
+  <circle cx="100" cy="300" r="200" fill="white" fill-opacity="0.05"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" style="letter-spacing: 5px;">AETHER CANTEEN</text>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white" fill-opacity="0.8" style="letter-spacing: 2px;">THE ULTIMATE INFORMATION HUB</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A237E"/>
+      <stop offset="1" stop-color="#4A148C"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,13 +1,13 @@
 <template>
   <div class="introduce w-100">
     <div class="header-body">
-      <function-message-box class="function-message-box" label="博士终端"/>
-      <function-message-box class="function-message-box" label="蹲饼！"/>
-      <function-message-box class="function-message-box" label="常用工具"/>
+      <function-message-box class="function-message-box" label="Terminal"/>
+      <function-message-box class="function-message-box" label="Pulse"/>
+      <function-message-box class="function-message-box" label="Utility"/>
       <message-message-box
           class="message-message-box"
-          line1="饼源消息"
-          line2="即刻推送"
+          line1="Real-time"
+          line2="Push"
           :mask_x="80"
           :mask_y="0"
           :block_x="0"
@@ -18,8 +18,8 @@
       />
       <message-message-box
           class="message-message-box"
-          line1="多类工具"
-          line2="即刻体验"
+          line1="Digital"
+          line2="Tools"
           :block_x="0"
           :block_y="0"
           :mask_x="50"
@@ -30,8 +30,8 @@
       />
       <message-message-box
           class="message-message-box"
-          line1="博士，理智"
-          line2="又满了哦"
+          line1="Welcome"
+          line2="Back"
           :block_x="0"
           :block_y="0"
           :mask_w="170"
@@ -86,10 +86,10 @@ const downloadOptions = ref<Array<Download>>([
   //   img: require('../../assets/image/detailsContent/donate/bilibili.png'),
   //   link: []
   // }},
-  { key: 'app', icon: 'icon-xiaoke-download', text: 'APP下载', background: '#A52625', link: 'install-app', isSlide: true},
-  { key: 'desktop', icon: 'icon-xiaoke-download', text: '桌面端下载', background: '#4879ff', link: 'install-desktop', isSlide: true },
-  { key: 'extension', icon: 'icon-xiaoke-download', text: '插件端下载', background: 'linear-gradient(to right, #ffbb4e, #ff8448)', link: 'install', isSlide: true },
-  { key: 'support', icon: 'icon-xiaoke-donate', text: '支持食堂', background: 'linear-gradient(to right, #5f5f5f, #333333)', link: 'sponsor', isSlide: true },
+  { key: 'app', icon: 'icon-xiaoke-download', text: 'App Download', background: '#A52625', link: 'install-app', isSlide: true},
+  { key: 'desktop', icon: 'icon-xiaoke-download', text: 'Desktop App', background: '#4879ff', link: 'install-desktop', isSlide: true },
+  { key: 'extension', icon: 'icon-xiaoke-download', text: 'Extension', background: 'linear-gradient(to right, #ffbb4e, #ff8448)', link: 'install', isSlide: true },
+  { key: 'support', icon: 'icon-xiaoke-donate', text: 'Support Us', background: 'linear-gradient(to right, #5f5f5f, #333333)', link: 'sponsor', isSlide: true },
 ])
 
 const download = (option: Download) => {

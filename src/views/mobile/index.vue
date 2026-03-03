@@ -1,5 +1,5 @@
 <template>
-  <h1 style="display: none">小刻食堂</h1>
+  <h1 style="display: none">Aether Canteen</h1>
   <nav>
     <div class="headers">
       <div class="head-logo">
@@ -10,7 +10,7 @@
         />
       </div>
       <ul>
-        <li><a @click="linkTo('mo-install')">下载</a></li>
+        <li><a @click="linkTo('mo-install')">Download</a></li>
       </ul>
     </div>
   </nav>
@@ -22,21 +22,21 @@
       </div>
       <div class="splitLine1"></div>
       <div class="splitLine2"></div>
-      <span>哒哒哒，博士<br />小刻将藏起来的饼都找出来了噢</span>
+      <span>Aether Canteen: Your ultimate information hub.</span>
       <div class="info">
-        <div class="line-1">24小时<span>蹲饼</span></div>
-        <div class="line-2">活动资源提示</div>
-        <div class="line-3">合理规划<span>理智</span></div>
+        <div class="line-1">24/7 <span>Monitoring</span></div>
+        <div class="line-2">Real-time Event Alerts</div>
+        <div class="line-3">Optimize <span>Progress</span></div>
         <div class="line-4 info-tips" style="transform: translateX(20%)">
-          博士，理智还没有耗完<br />现在还不可以休息哦
+          Efficiency at its peak.<br />Stay informed, stay ahead.
         </div>
       </div>
       <div class="info">
-        <div class="line-1">各类<span>常用工具</span></div>
-        <div class="line-2">便捷使用，提高养成效率</div>
-        <div class="line-3"><span>活动攻略</span>在线推送</div>
+        <div class="line-1">Essential <span>Utilities</span></div>
+        <div class="line-2">Streamlined tools for peak efficiency</div>
+        <div class="line-3"><span>Strategy Guides</span> instant push</div>
         <div class="line-4 info-tips" style="transform: translateX(-20%)">
-          再也不用担心打不过杰斯顿了
+          Master every challenge with ease.
         </div>
       </div>
       <div class="show" id="mo-install">
@@ -62,7 +62,7 @@
           <img src="@/assets/image/detailsContent/menuIcon/appleDown.png" alt="苹果">
         </button>
       </div>
-      <span>插件端与桌面端打开电脑官网进行下载</span>
+      <span>For Extension and Desktop versions, visit the website on your PC.</span>
     </div>
   </div>
   <div class="donate">
@@ -70,10 +70,10 @@
       <div class="thanks-box">
         <div class="splitline"></div>
         <span class="word" id="mo-sponsor">
-          感谢大家对小刻食堂的支持<br/> 
-          未成年刀客塔请勿捐款，三连我们的账号就可以啦。<br/> 
-          如果在收支一览表内没有发现自己的捐助，那就是我们理智涣散，来群里面找我们添加!<br/> 
-          由于捐助列表是程序自动生成，捐助的备注一定要以<span style="color: #c2ffc1; font-size: 20px;">刻</span>字开头哦！</span>
+          感谢大家对 Aether Canteen 的支持<br/> 
+          Your support helps us keep the servers running and the tools updated.<br/> 
+          If your donation is not in the report, please contact us!<br/> 
+          Please ensure your donation note starts with <span style="color: #c2ffc1; font-size: 20px;">Aether</span>.</span>
       </div>
     </div>
     <div class="p-box">
@@ -92,9 +92,9 @@
       </div>
       
     </div>
-    <v-btn @click="toLink('https://docs.qq.com/sheet/DZXZObGZuZmtRaXlv?tab=nzfrjv')" class="color-fff" color="#D07D00">收支一览表</v-btn>
+    <v-btn @click="toLink('https://docs.qq.com/sheet/DZXZObGZuZmtRaXlv?tab=nzfrjv')" class="color-fff" color="#D07D00">Financial Report</v-btn>
   </div>
-  <box-title icon="icon-xiaoke-a-lianhe3" title="关于我们" ></box-title>
+  <box-title icon="icon-xiaoke-a-lianhe3" title="About Us" ></box-title>
   <div class="team-bar" id="mo-about-us">
     <div class="member" v-for="(member, index) in teamData" :key="index">
       <div class="head" @click="toLink(member.link.length>0?member.link[0].value:'')">

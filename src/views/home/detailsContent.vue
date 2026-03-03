@@ -6,13 +6,13 @@
     <div id="introduction" class="info flex pt-16 menu-js">
       <div class="flex flex1 flex-column flex-center-center flex-align-end">
         <div class="speak flex flex-column flex-center-center">
-          <div class="line-1">24小时<span class="color-yellow">蹲饼</span></div>
-          <div class="line-2">活动资源提示</div>
-          <div class="line-3">合理规划<span class="color-red">理智</span></div>
+          <div class="line-1">24/7 <span class="color-yellow">Monitoring</span></div>
+          <div class="line-2">Real-time Event Alerts</div>
+          <div class="line-3">Optimize <span class="color-red">Progress</span></div>
         </div>
         <div class="devil-speaking color-blue line-4 flex flex-column flex-center-center flex-align-end">
-          <div>博士，理智还没有耗完</div>
-          <div>现在还不可以休息哦</div>
+          <div>Efficiency at its peak.</div>
+          <div>Stay informed, stay ahead.</div>
         </div>
       </div>
       <div class="flex1">
@@ -25,19 +25,19 @@
       </div>
       <div class="flex1 flex flex-column flex-center-center flex-align-start">
         <div class=" speak flex flex-column flex-center-center">
-          <div class="line-1">各类<span class="color-yellow">常用工具</span></div>
-          <div class="line-2">便捷使用，提高养成效率</div>
-          <div class="line-3"><span class="color-red">活动攻略</span>在线推送</div>
+          <div class="line-1">Essential <span class="color-yellow">Utilities</span></div>
+          <div class="line-2">Streamlined tools for peak efficiency</div>
+          <div class="line-3"><span class="color-red">Strategy Guides</span> instant push</div>
 
         </div>
         <div class="devil-speaking color-blue line-4">
-          再也不用担心打不过杰斯顿了
+          Master every challenge with ease.
         </div>
       </div>
 
     </div>
     <div id="install" class="install pa-8 pt-16 menu-azzn">
-      <box-title icon="icon-xiaoke-a-lianhe1" title="插件端安装指南"></box-title>
+      <box-title icon="icon-xiaoke-a-lianhe1" title="Extension Install Guide"></box-title>
       <div class="install-content pa-8 flex flex-around-center">
         <install-browser v-for="install in state.installInfo"
                          :key="install.name"
@@ -45,7 +45,7 @@
       </div>
     </div>
     <div id="install-desktop" class="install pa-8 pt-16 menu-azzn">
-      <box-title icon="icon-xiaoke-a-lianhe1" title="桌面端安装指南"></box-title>
+      <box-title icon="icon-xiaoke-a-lianhe1" title="Desktop Install Guide"></box-title>
       <div class="install-content pa-8 flex flex-around-center">
         <install-browser v-for="install in state.installDesktopInfo"
                          :key="install.name"
@@ -54,7 +54,7 @@
       </div>
     </div>
     <div id="install-app" class="install pa-8 pt-16 menu-azzn">
-      <box-title icon="icon-xiaoke-a-lianhe1" title="App端安装指南"></box-title>
+      <box-title icon="icon-xiaoke-a-lianhe1" title="App Install Guide"></box-title>
       <div class="install-content pa-8 flex flex-around-center">
         <install-browser v-for="install in state.installAppInfo"
                          :key="install.name"
@@ -63,12 +63,11 @@
       </div>
     </div>
     <div id="sponsor" class="donate pa-8 pt-16 menu-zcst">
-      <box-title icon="icon-xiaoke-a-lianhe2" title="支持食堂"></box-title>
+      <box-title icon="icon-xiaoke-a-lianhe2" title="Support Aether"></box-title>
       <div class="mt-7">
-        <h3>感谢大家对小刻食堂的支持</h3>
-        未成年刀客塔请勿捐款，三连我们的账号就可以啦。<br/>
-        如果在收支一览表内没有发现自己的捐助，那就是我们理智涣散，来群里面找我们添加！ 
-        <h4>由于捐助列表是程序自动生成，捐助的备注一定要以<span style="color: #D07D00; font-size: 30px;">刻</span>字开头哦！</h4>
+        <h3>Thank you for supporting Aether Canteen</h3>
+        Your support helps us keep the servers running and the tools updated. 
+        <h4>Please ensure your donation note starts with <span style="color: #D07D00; font-size: 30px;">Aether</span>.</h4>
       </div>
       <div class="flex flex-around-center mt-7">
         <div class="donate-box" v-for="donate in state.donateList">
@@ -86,11 +85,11 @@
         </div>
       </div>
       <div class="mt-7">
-        <v-btn @click="toLink('https://docs.qq.com/sheet/DZXZObGZuZmtRaXlv?tab=nzfrjv')" class="color-fff" color="#D07D00">收支一览表</v-btn>
+        <v-btn @click="toLink('https://docs.qq.com/sheet/DZXZObGZuZmtRaXlv?tab=nzfrjv')" class="color-fff" color="#D07D00">Financial Report</v-btn>
       </div>
     </div>
     <div id="about-us" class="us pa-8 pt-16 menu-gywm">
-      <box-title icon="icon-xiaoke-a-lianhe3" title="关于我们"></box-title>
+      <box-title icon="icon-xiaoke-a-lianhe3" title="About Us"></box-title>
       <div class="flex flex-row flex-wrap flex-evenly-center">
         <team class="mt-10" :team-info="team" v-for="team in state.teamList"></team>
       </div>
