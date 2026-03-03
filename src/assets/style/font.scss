@@ -1,0 +1,53 @@
+//100 - Thin
+//200 - Extra Light (Ultra Light)
+//300 - Light
+//400 - Regular (Normal、Book、Roman)
+//500 - Medium
+//600 - Semi Bold (Demi Bold)
+//700 - Bold
+//800 - Extra Bold (Ultra Bold)
+//900 - Black (Heavy)
+
+
+.font-size-14 {
+  font-size: 14px !important;
+}
+
+.font-size-16 {
+  font-size: 16px !important;;
+}
+
+.font-size-18 {
+  font-size: 18px !important;;
+}
+
+.font-size-20 {
+  font-size: 20px !important;;
+}
+
+.font-size-22 {
+  font-size: 22px !important;;
+}
+
+.font-size-24 {
+  font-size: 24px !important;;
+}
+
+.font-size-26 {
+  font-size: 26px !important;;
+}
+
+
+@font-face {
+  font-family: 'sucai';
+  src: url('../font/素材集市社会体.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MiSans;
+  src: url('https://unpkg.com/ceobe-canteen-static@1.0.0/MiSans-Regular.ttf');
+}
+
+
